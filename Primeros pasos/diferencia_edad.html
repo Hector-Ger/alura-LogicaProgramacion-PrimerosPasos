@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+<h1>Diferencia de edad</h1>
+<script>
+    var edadHermana=32
+    var edadMia=20
+    function saltarLinea(){
+        document.write("<br><br>")
+    }
+    function imprimir(sms){
+        document.write(sms)
+        saltarLinea()
+    }
+    function calculaDiferencia(edad1,edad2){
+        diferencia = edad1-edad2
+        return diferencia
+    }
+
+    imprimir("Nuestra diferencia de edad de mi hermana y mía es de: "+ calculaDiferencia(edadHermana,edadMia) + " años")
+</script>
